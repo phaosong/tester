@@ -28,3 +28,12 @@ javascript เป็นภาษาที่ใช้สำหรับเขี
 code . r 
 cmp คือ command prompt
 Ctrl / คือ เปิด/ปิด
+คำสั่งสำหรับการอัพ Code ขึ้น GitHub
+# การอัพไฟล์ขึ้น Github
+git init
+git add .
+git config --global user.email "anuschai.bsod@gmail.com"
+git config --global user.name "anutchai"
+git config --list
+git commit -m "first commit"
+git remote add origin https://github.com/anutchaimm/firstproject.git
